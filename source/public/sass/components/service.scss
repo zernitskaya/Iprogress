@@ -1,0 +1,38 @@
+.service {
+  @include content;
+  padding-top: 100px;
+  word-wrap: break-word;
+}
+
+.service__heading {
+  font-size: 32px;
+  line-height: 1.6em;
+  color: #333;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.service__content-wrap {
+  display: flex;
+  padding: 50px 0;
+  padding-bottom: 80px;
+}
+
+.service__wrap {
+  padding-bottom: 80px;
+}
+
+.service__btn {
+  display: flex;
+  justify-content: center;
+}
+
+.service__content-img-wrap {
+  width: 100%;
+}
+
+.service__content-img {
+  max-width: 320px;
+}

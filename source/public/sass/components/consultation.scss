@@ -1,0 +1,34 @@
+.consultation {
+  background-image: linear-gradient(180deg,#3cd1ff 0%,#1ca5ff 100%);
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: 6vw;
+  margin-left: 6vw;
+  border-radius: 8px 8px 8px 8px;
+  overflow: hidden;
+  z-index: 10;
+  box-shadow: 0px 45px 135px -45px #1ca5ffc2;
+  margin-bottom: 100px;
+}
+
+.consultation__wrap {
+  @include content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0;
+}
+
+.consultation__heading-wrap {
+  max-width: 700px;
+  margin-bottom: 2.75%;
+}
+
+.consultation__heading {
+  font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.3em;
+  color: #fff;
+  text-align: center;
+}

@@ -1,0 +1,38 @@
+.expert {
+  @include content;
+}
+
+.expert__wrap {
+  display: flex;
+}
+
+.expert__heading {
+  font-size: 40px;
+  line-height: 1.1em;
+  text-align: right;
+}
+
+.expert__text {
+  color: #666;
+  text-align: right;
+  padding-bottom: 1em;
+  line-height: 1.3em;
+  font-family: 'Abril Fatface',display;
+  font-weight: 800;
+  font-size: 25px;
+  letter-spacing: 1px;
+  line-height: 1.3em;
+}
+
+.expert__wrap-aboute {
+  width: 40%;
+  margin-right: 40px;
+}
+
+.expert__wrap-img {
+  width: 60%;
+}
+
+.expert__img {
+  width: 100%;
+}

@@ -1,0 +1,25 @@
+.basic-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 251px;
+  height: 63px;
+  background-color: #1ca5ff;
+  box-shadow: 0px 30px 40px -16px #1ca5ff3d;
+  color: #ffffff;
+  border-radius: 100px;
+  letter-spacing: 1px;
+  font-size: 21px;
+  text-transform: uppercase;
+
+  @include active;
+}
+
+.basic-btn--black {
+  background-color: #000;
+}
+
+.basic-btn--small {
+  width: 80px;
+  height: 52px;
+}

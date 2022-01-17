@@ -1,0 +1,38 @@
+.about-us {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-us--left {
+  padding-right: 50px;
+  align-items: flex-end;
+  text-align: right;
+  padding: 30px 50px 30px 0px;
+}
+
+.about-us--right {
+  padding: 30px 0 30px 50px;
+}
+
+.about-us__img-wrap {
+ margin-bottom: 20px;
+ width: 45px;
+ height: 45px;
+}
+
+.about-us__img {
+  width: 100%;
+}
+
+.about-us__heading {
+  font-weight: 700;
+  font-size: 23px;
+  padding-bottom: 10px;
+}
+
+.about-us__text {
+  color: #333;
+  font-weight: 500;
+  line-height: 1.6em;
+}
