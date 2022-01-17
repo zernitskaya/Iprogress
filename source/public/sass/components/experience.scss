@@ -1,13 +1,14 @@
-
-
 .experience {
   position: relative;
-  margin-right: 40px;
-  margin-left: 40px;
+  margin: 0 40px;
   background-color: #28283f;
   background-image: url('../img/Artboard.png');
   background-repeat: no-repeat;
   background-position: 50%;
+
+  @include media-exsm {
+    margin: 0 10px;
+  }
 }
 
 .experience__bg {
@@ -26,6 +27,7 @@
   text-align: center;
   color: #fff;
   padding-top: 80px;
+  padding-bottom: 55px;
 }
 
 .experience__about-wrap {
@@ -33,6 +35,10 @@
   margin-bottom: 2.75%;
   margin-left: auto;
   margin-right: auto;
+
+  @include media-exsm {
+   padding-bottom: 100px;
+  }
 }
 
 .experience__heading {
@@ -48,13 +54,24 @@
   font-weight: 700;
   line-height: 1.5em;
   font-size: 21px;
+
+  @include media-exsm {
+    font-size: 18px;
+  }
 }
 
 .experience__img-wrap {
-  width: 100%;
-  margin-left: 30%;
+  width: 92%;
+  margin-left: auto;
+  margin-right: -315px;
   position: relative;
   z-index: 0;
+
+  @include media-md {
+    width: 120%;
+    margin: 0 auto;
+    margin-left: -30px;
+  }
 }
 
 .experience__img {

@@ -4,11 +4,23 @@
   display: flex;
   padding: 80px 0 60px 0;
   text-align: right;
+
+
+  @include media-md {
+   flex-direction: column;
+   padding-bottom: 20px;
+  }
 }
 
 .contact__left-side {
   width: 47.25%;
   margin-right: 5.5%;
+
+
+  @include media-md {
+    width: 100%;
+    margin: 0;
+  }
 }
 
 .contact__heading {
@@ -17,16 +29,33 @@
   font-size: 50px;
   line-height: 1.3em;
   padding-top: 30px;
+
+
+  @include media-md {
+    font-size: 30px;
+  }
+
+  @include media-exsm {
+    font-size: 24px;
+  }
 }
 
 .contact__right-side {
   width: 47.25%;
+  @include media-md {
+    width: 100%;
+  }
 }
 
 .contact__img-wrap {
   width: 46%;
   transform: translateX(103px) translateY(21px);
-  // margin-left: 0;
+
+  @include media-md {
+   margin: 0 auto;
+   transform: none;
+   padding-top: 50px;
+  }
 }
 
 .contact__img {

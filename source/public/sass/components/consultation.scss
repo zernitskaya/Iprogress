@@ -22,6 +22,11 @@
 .consultation__heading-wrap {
   max-width: 700px;
   margin-bottom: 2.75%;
+
+
+  @include media-md {
+   margin-bottom: 30px;
+  }
 }
 
 .consultation__heading {

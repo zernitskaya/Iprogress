@@ -4,6 +4,15 @@
 
 .expert__wrap {
   display: flex;
+
+
+  @include media-md {
+    flex-direction: column;
+  }
+
+  // @include media-exsm {
+  //   font-size: 24px;
+  // }
 }
 
 .expert__heading {
@@ -22,15 +31,34 @@
   font-size: 25px;
   letter-spacing: 1px;
   line-height: 1.3em;
+
+
+  @include media-md {
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+
+  @include media-exsm {
+    font-size: 14px;
+  }
 }
 
 .expert__wrap-aboute {
   width: 40%;
   margin-right: 40px;
+
+  @include media-md {
+    width: 100%;
+    padding-bottom: 20px;
+  }
 }
 
 .expert__wrap-img {
   width: 60%;
+
+  @include media-md {
+    width: 100%;
+  }
 }
 
 .expert__img {

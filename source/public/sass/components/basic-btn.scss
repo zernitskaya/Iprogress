@@ -17,6 +17,10 @@
 
 .basic-btn--black {
   background-color: #000;
+
+  @include media-md {
+    width: 203px;
+   }
 }
 
 .basic-btn--small {

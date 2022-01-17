@@ -1,22 +1,35 @@
 .first-step {
   border-radius: 8px;
   box-shadow: 0px 45px 135px -45px #1ca5ffc2;
-  // padding: 54px 0;
   padding-right: 30px;
   padding-left: 30px;
   margin-right: 6vw;
   margin-left: 6vw;
+  position: relative;
+    z-index: 3;
 }
 
 .first-step__wrap {
   @include content;
   display: flex;
   padding: 80px 0;
+
+
+  @include media-md {
+    flex-direction: column;
+  }
 }
 
 .first-step__heading-wrap {
   width: 47.25%;
   margin-right: 5.5%;
+
+
+  @include media-md {
+   width: 100%;
+   margin: 0;
+   padding-bottom: 40px;
+  }
 }
 
 .first-step__heading {
@@ -28,6 +41,11 @@
 
 .first-step__img-wrap {
   width: 47.25%;
+
+
+  @include media-md {
+    width: 100%;
+  }
 }
 
 .first-step__img {
