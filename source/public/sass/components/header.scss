@@ -155,10 +155,6 @@
     visibility: hidden;
     transition: 1s;
   }
-
-  @include media-exsm {
-    width: calc(100vw - 30px);
-  }
 }
 
 .header__menu.active {

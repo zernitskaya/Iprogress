@@ -5,6 +5,7 @@
   background-image: url('../img/Artboard.png');
   background-repeat: no-repeat;
   background-position: 50%;
+  overflow: hidden;
 
   @include media-exsm {
     margin: 0 10px;
@@ -67,10 +68,19 @@
   position: relative;
   z-index: 0;
 
+  @include media-max {
+    width: 70%;
+    margin-right: -100px;
+  }
+
+  @include media-xl {
+    width: 100%;
+    margin: 0 auto;
+  }
+
   @include media-md {
     width: 120%;
-    margin: 0 auto;
-    margin-left: -30px;
+    margin-left: -10%;
   }
 }
 

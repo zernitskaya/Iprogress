@@ -11,6 +11,7 @@
   letter-spacing: 1px;
   font-size: 21px;
   text-transform: uppercase;
+  position: relative;
 
   @include active;
 }
@@ -24,6 +25,41 @@
 }
 
 .basic-btn--small {
-  width: 80px;
+  width: 90px;
   height: 52px;
+  padding: 3px;
+}
+
+.basic-btn__cirkle {
+  position: relative;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  margin-left: 10px;
+}
+
+.basic-btn__arrow {
+  position: absolute;
+  left: 5px;
+  top: 7px;
+  border: solid #1ca5ff;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.basic-btn__arrow-black {
+  position: absolute;
+  left: 5px;
+  top: 7px;
+  border: 1px solid #000;
+  border-top: none;
+  border-left: none;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
 }

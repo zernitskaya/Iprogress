@@ -17,7 +17,8 @@
 }
 
 .main-form__left {
-  width: 73.625%;
+  width: 100%;
+  max-width: 750px;
   margin-left: auto;
 
   @include media-exsm  {
@@ -106,6 +107,7 @@
   background-color: #fff;
   background-color: #fafdff;
   padding: 10px;
+  min-width: 0;
 }
 
 .main-form__input--first {
